@@ -1,0 +1,59 @@
+body {
+    background-color: skyblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    display: flex;
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.currency_container {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+    border: 5px solid red;
+    border-radius: 18px;
+    width: 410px;
+}
+.converter {
+    background-color: aquamarine;
+    margin: 20px;
+    padding: 8px;
+}
+#amount {
+    width: 90%;
+    font-size: large;
+    font-weight: bold;
+}
+h1 {
+    background-color: rgb(161, 50, 246);
+    font-size: 40px;
+    font-weight: bold;
+}
+input,select,button {
+    width: 40%;
+    padding: 5px;
+    margin: 20px 0;
+}
+button {
+     width: 100%;
+     height: 30px;
+     margin-top: 20px;
+     background-color: goldenrod;
+     font-size: larger;
+     font-weight: bold;
+     cursor: pointer;
+     border: 2px solid green;
+     border-radius: 12px;
+}
+button:hover {
+    background-color: blueviolet;
+}
+h2 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(187, 220, 4);
+    font-size: 25px;
+    font-weight: bold;
+}
